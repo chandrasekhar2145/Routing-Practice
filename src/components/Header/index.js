@@ -2,7 +2,7 @@
 import './index.css'
 import {Link} from 'react-router-dom'
 
-const Header = () => {
+const Header = () => (
   ;<nav className="nav-header">
     <div className="title-container">
       <img
@@ -30,6 +30,6 @@ const Header = () => {
       </li>
     </nav>
   </nav>
-}
+)
 
 export default Header
