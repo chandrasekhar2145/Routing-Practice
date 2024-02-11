@@ -6,7 +6,7 @@ import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 import './App.css'
 
-const App = () => {
+const App = () => (
   ;<div className="app-container">
     <div className="display-container">
       <Header />
@@ -20,6 +20,6 @@ const App = () => {
       </div>
     </div>
   </div>
-}
+)
 
 export default App
